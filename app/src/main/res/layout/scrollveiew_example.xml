@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imgBeluga"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/beluga"
+                android:layout_margin="20dp" />
+
+            <TextView
+                android:id="@+id/txtName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/beluga_name"
+                android:textSize="18sp"
+                android:layout_toEndOf="@+id/imgBeluga"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:layout_marginTop="15dp"/>
+
+            <TextView
+                android:id="@+id/txtNickname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/beluga_nickname"
+                android:textSize="18sp"
+                android:layout_toEndOf="@id/imgBeluga"
+                android:layout_below="@id/txtName"
+                android:textColor="#000000"
+                android:layout_marginTop="15dp"/>
+
+            <TextView
+                android:id="@+id/txtEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/beluga_email"
+                android:textSize="18sp"
+                android:layout_toEndOf="@id/imgBeluga"
+                android:layout_below="@id/txtNickname"
+                android:textColor="#000000"
+                android:layout_marginTop="15dp"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imgTony"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/tony_stark"
+                android:layout_margin="20dp" />
+
+            <TextView
+                android:id="@+id/txtTonyName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tony_stank"
+                android:textSize="18sp"
+                android:layout_toEndOf="@+id/imgTony"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:layout_marginTop="15dp"/>
+
+            <TextView
+                android:id="@+id/txtTonyNickname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tony_nickname"
+                android:textSize="18sp"
+                android:layout_toEndOf="@id/imgTony"
+                android:layout_below="@id/txtTonyName"
+                android:textColor="#000000"
+                android:layout_marginTop="15dp"/>
+
+            <TextView
+                android:id="@+id/txtTonyEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tony_email"
+                android:textSize="18sp"
+                android:layout_toEndOf="@id/imgTony"
+                android:layout_below="@id/txtTonyNickname"
+                android:textColor="#000000"
+                android:layout_marginTop="15dp"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imgCaptain"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/captain_america"
+                android:layout_margin="20dp" />
+
+            <TextView
+                android:id="@+id/txtCaptainName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/steve_name"
+                android:textSize="18sp"
+                android:layout_toEndOf="@+id/imgCaptain"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:layout_marginTop="15dp"/>
+
+            <TextView
+                android:id="@+id/txtCaptainNickname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/steve_nickname"
+                android:textSize="18sp"
+                android:layout_toEndOf="@id/imgCaptain"
+                android:layout_below="@id/txtCaptainName"
+                android:textColor="#000000"
+                android:layout_marginTop="15dp"/>
+
+            <TextView
+                android:id="@+id/txtCaptainEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/steve_email"
+                android:textSize="18sp"
+                android:layout_toEndOf="@id/imgCaptain"
+                android:layout_below="@id/txtCaptainNickname"
+                android:textColor="#000000"
+                android:layout_marginTop="15dp"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imgThor"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/thor"
+                android:layout_margin="20dp" />
+
+            <TextView
+                android:id="@+id/txtThorName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/thor_name"
+                android:textSize="18sp"
+                android:layout_toEndOf="@+id/imgThor"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:layout_marginTop="15dp"/>
+
+            <TextView
+                android:id="@+id/txtThorNickname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/thor_nickname"
+                android:textSize="18sp"
+                android:layout_toEndOf="@id/imgThor"
+                android:layout_below="@id/txtThorName"
+                android:textColor="#000000"
+                android:layout_marginTop="15dp"/>
+
+            <TextView
+                android:id="@+id/txtThorEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/thor_email"
+                android:textSize="18sp"
+                android:layout_toEndOf="@id/imgThor"
+                android:layout_below="@id/txtThorNickname"
+                android:textColor="#000000"
+                android:layout_marginTop="15dp"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imgWidow"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/widow"
+                android:layout_margin="20dp" />
+
+            <TextView
+                android:id="@+id/txtWidowName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/widow_name"
+                android:textSize="18sp"
+                android:layout_toEndOf="@+id/imgWidow"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:layout_marginTop="15dp"/>
+
+            <TextView
+                android:id="@+id/txtWidowNickname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/widow_nickname"
+                android:textSize="18sp"
+                android:layout_toEndOf="@id/imgWidow"
+                android:layout_below="@id/txtWidowName"
+                android:textColor="#000000"
+                android:layout_marginTop="15dp"/>
+
+            <TextView
+                android:id="@+id/txtWidowEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/widow_email"
+                android:textSize="18sp"
+                android:layout_toEndOf="@id/imgWidow"
+                android:layout_below="@id/txtWidowNickname"
+                android:textColor="#000000"
+                android:layout_marginTop="15dp"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imgPanther"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/black_panther"
+                android:layout_margin="20dp" />
+
+            <TextView
+                android:id="@+id/txtPantherName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/panther_name"
+                android:textSize="18sp"
+                android:layout_toEndOf="@+id/imgPanther"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:layout_marginTop="15dp"/>
+
+            <TextView
+                android:id="@+id/txtPantherNickname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/panther_nickname"
+                android:textSize="18sp"
+                android:layout_toEndOf="@id/imgPanther"
+                android:layout_below="@id/txtPantherName"
+                android:textColor="#000000"
+                android:layout_marginTop="15dp"/>
+
+            <TextView
+                android:id="@+id/txtPantherEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/panther_email"
+                android:textSize="18sp"
+                android:layout_toEndOf="@id/imgPanther"
+                android:layout_below="@id/txtPantherNickname"
+                android:textColor="#000000"
+                android:layout_marginTop="15dp"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</ScrollView>

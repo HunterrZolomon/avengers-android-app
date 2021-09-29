@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Avengers</string>
+    <string name="enter_mobile_number">Enter Mobile Number</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="login">Login</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="register_yourself">Register Yourself</string>
+    <string name="tony_stank">Tony Stank</string>
+    <string name="beluga_name">Beluga</string>
+    <string name="beluga_nickname">Hero/Pikachu</string>
+    <string name="beluga_email">pikachu@beluga.com</string>
+    <string name="tony_nickname">Iron Man</string>
+    <string name="tony_email">stark@avengers.com</string>
+    <string name="steve_name">Captain (Not actually Captain) America</string>
+    <string name="steve_nickname">BuCkY iS AlIvE</string>
+    <string name="steve_email">peggy@avengers.com</string>
+    <string name="thor_name">Thor Odinson</string>
+    <string name="thor_nickname">God of Hammers/Point Break</string>
+    <string name="thor_email">stormbreaker@revengers.com</string>
+    <string name="widow_name">Black Widow</string>
+    <string name="widow_nickname">Hawkeye\'s Friend</string>
+    <string name="widow_email">widow@avengers.com</string>
+    <string name="panther_name">Black Panther</string>
+    <string name="panther_nickname">Wakanda Forever</string>
+    <string name="panther_email">shuri@avengers.com</string>
+    <string name="preferences_file_name">Avengers Preferences</string>
+</resources>

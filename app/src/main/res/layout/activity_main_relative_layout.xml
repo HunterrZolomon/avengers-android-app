@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imgBeluga"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/beluga"/>
+
+    <TextView
+        android:id="@+id/txtBeluga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:layout_gravity="center"
+        android:text="Beluga alias Flickhero"
+        android:layout_below="@id/imgBeluga"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="#0d47a1"/>
+
+    <TextView
+        android:id="@+id/txtEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:layout_gravity="center"
+        android:text="coe18b010@iiitdm.ac.in"
+        android:layout_below="@id/txtBeluga"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="@color/purple_700"/>
+
+    <Button
+        android:id="@+id/btnClickHere"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_alignParentBottom="true"
+        android:text="Click Here"
+        android:background="#0091ea"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="18sp"/>
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your name"
+        android:layout_above="@id/btnClickHere"
+        android:layout_margin="20dp"
+        android:inputType="text"/>
+
+</RelativeLayout>
